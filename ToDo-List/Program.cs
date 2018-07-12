@@ -36,7 +36,7 @@ namespace ToDo_List
 
             foreach (var task in Tasks)
             {
-                if (task.Complete)
+                if (!task.Complete)
                 {
                     Console.WriteLine(task.ToString());
                 }
